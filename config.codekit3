@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/css\/layouts\/marketing-old-ie.css": {
 		"aP": 1,
 		"bl": 0,
