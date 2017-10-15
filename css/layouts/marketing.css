@@ -56,6 +56,13 @@ label {
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
+    position: relative;
+    background-attachment: scroll;
+ background-position: center top;
+ background-clip: border-box;
+ background-origin: padding-box;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .pure-img-responsive-logo {
