@@ -58,6 +58,11 @@ label {
     height: auto;
 }
 
+.pure-img-responsive-logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5em;
+}
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
@@ -109,10 +114,13 @@ label {
 }
 
 a.pure-button-primary {
-    background: white;
-    color: #1f8dd6;
-    border-radius: 5px;
-    font-size: 120%;
+
+
+border-width: .125rem;
+border-radius: 40px;
+background-color: transparent;
+text-transform: uppercase;
+font-size: .8em;
 }
 
 
@@ -179,12 +187,15 @@ a.pure-button-primary {
     left: 0;
     position: fixed !important;
 
-    background-image: url('/Users/giannis/Downloads/PureCSSAkoumeHousePage/img/topheropic.jpg');
+    /*background-image: url('/Users/giannis/Documents/GitHub/PureCSSAkoumeHousePage/img/topheropic.jpg');
+*/
     width: 100%;
     height: 88%
+    /*
     position: absolute;
     background-size: cover;
     background-position: 33% 22%;
+    */
 }
 
 .splash {
@@ -291,6 +302,20 @@ a.pure-button-primary {
         font-size: 16px;
     }
 
+    h2 {
+
+      font-size: 1em;
+      font-weight: bold;
+
+      color: white;
+
+      padding: 0.2em 0.2em;
+      font-weight: 100;
+      border-radius: 5px;
+      line-height: 1em;
+      font-family: 'Nothing You Could Do', cursive;
+
+    }
     /* We can align the menu header to the left, but float the
     menu items to the right. */
     .home-menu {
@@ -309,13 +334,20 @@ a.pure-button-primary {
     to work with */
     .splash {
         width: 50%;
-        height: 50%;
+        height: 75%;
     }
 
     .splash-head {
-        font-size: 250%;
+        font-size: 200%;
     }
 
+    .splash-subhead {
+        color: white;
+        letter-spacing: 0.05em;
+        opacity: 1;
+        font-size: 18px;
+        width: auto;
+        height: 10em;
 
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
@@ -334,4 +366,18 @@ a.pure-button-primary {
     .splash-head {
         font-size: 300%;
     }
-}
+
+    h2 {
+
+      font-size: 1.6em;
+      font-weight: bold;
+
+      color: white;
+
+      padding: 0.2em 0.2em;
+      font-weight: 100;
+      border-radius: 5px;
+      line-height: 1em;
+      font-family: 'Nothing You Could Do', cursive;
+
+    }
